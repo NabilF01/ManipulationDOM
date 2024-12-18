@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black ;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
