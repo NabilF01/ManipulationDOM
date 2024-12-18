@@ -17,3 +17,8 @@ img{
     display: flex;
     justify-content: center;
 }
+.img-2,
+.img-3,
+.img-4{
+    display: none;
+}
