@@ -8,17 +8,11 @@ img{
     height: 400px;
     width: 400px;
     border: 3px solid black ;
+    transition: all 1s ease-out;
 }
-.btn{
+#slider{
     display: flex;
-    justify-content: center;
-}
-.images{
-    display: flex;
-    justify-content: center;
-}
-.img-2,
-.img-3,
-.img-4{
-    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
