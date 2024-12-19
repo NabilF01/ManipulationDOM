@@ -3,6 +3,11 @@ let btnP2 = document.getElementById('p2');
 let reset = document.getElementById('reset');
 let input = document.getElementById('playing');
 
+let playing = document.getElementById('playing');
+
+input.addEventListener('change', () => {
+    playing.value = input.value;
+});
 
 btnP1.addEventListener('click', () => {
     let countP1 = document.getElementById('countP1');
