@@ -1,8 +1,6 @@
 
 let input = document.getElementById('courseElement');
 let button = document.getElementById('btn');
-
-
 let main = document.querySelector('main');
 
 
