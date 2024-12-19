@@ -1,3 +1,9 @@
 body{
     padding-left: 0.5rem;
 }
+
+#h1-div{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
