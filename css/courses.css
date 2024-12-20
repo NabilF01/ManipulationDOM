@@ -1,0 +1,88 @@
+body{
+    padding-left: 0.5rem;
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+nav ul li a.active {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+}
+/* Gérer les styles de la liste */
+main ul {
+    list-style: none;
+    margin-top: 1rem; /* Ajoute un espace entre le formulaire et la liste */
+    padding: 0;
+}
+
+main ul li {
+    background-color: #444;
+    margin-bottom: 0.5rem; /* Espace entre les éléments de la liste */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+/* Style pour l'input et le bouton */
+main input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    background-color: #222;
+    color: white;
+}
+
+main button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main button:hover {
+    background-color: #0056b3;
+}
+
+/* Ajout de défilement si nécessaire */
+main ul {
+    list-style: none;
+    margin-top: 1rem; 
+    padding: 0;
+    max-height: 300px; /* Limite la hauteur de la liste */
+    overflow-y: auto; /* Active le défilement si la liste dépasse */
+}

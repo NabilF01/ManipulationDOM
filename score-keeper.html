@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="css/score-keeper.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="slider.html">Slider</a></li>
+          <li><a href="courses.html">Liste de courses</a></li>
+          <li><a href="score-keeper.html" class="active">Score Keeper</a></li>
+        </ul>
+      </nav>
+      <div id="h1-div">
+        <h1 id="countP1">0</h1>
+        <h1>to</h1>
+        <h1 id="countP2">0</h1>
+      </div>
+      <div id="playing-to">
+        <p>Playing to :</p>
+        <p id="count-playing">0</p>
+      </div>
+      <input
+        id="number-playing"
+        type="number"
+        min="0"
+        placeholder="Entrez un score"
+      />
+      <button id="p1">Player One</button>
+      <button id="p2">Player Two</button>
+      <button id="reset">Reset</button>
+    </main>
+    <script src="js/score-keeper.js"></script>
+  </body>
+</html>
