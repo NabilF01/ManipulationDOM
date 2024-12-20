@@ -38,21 +38,21 @@ nav ul li a.active {
     color: white;
     border-radius: 4px;
 }
-/* Gérer les styles de la liste */
+
 main ul {
     list-style: none;
-    margin-top: 1rem; /* Ajoute un espace entre le formulaire et la liste */
+    margin-top: 1rem;
     padding: 0;
 }
 
 main ul li {
     background-color: #444;
-    margin-bottom: 0.5rem; /* Espace entre les éléments de la liste */
+    margin-bottom: 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
 
-/* Style pour l'input et le bouton */
+
 main input[type="text"] {
     padding: 0.5rem;
     font-size: 1rem;
@@ -78,11 +78,11 @@ main button:hover {
     background-color: #0056b3;
 }
 
-/* Ajout de défilement si nécessaire */
+
 main ul {
     list-style: none;
     margin-top: 1rem; 
     padding: 0;
-    max-height: 300px; /* Limite la hauteur de la liste */
-    overflow-y: auto; /* Active le défilement si la liste dépasse */
+    max-height: 300px;
+    overflow-y: auto;
 }
