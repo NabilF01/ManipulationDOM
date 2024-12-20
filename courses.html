@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="css/courses.css" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="slider.html">Slider</a></li>
+        <li><a href="courses.html" class="active">Liste de courses</a></li>
+        <li><a href="score-keeper.html">Score Keeper</a></li>
+      </ul>
+    </nav>
     <main>
       <h1>Liste de courses</h1>
-      <input id="courseElement" type="text" placeholder="Ajouter des éléments" />
-      <button id="btn">Ajouter</button>
+      <div>
+        <input
+          id="courseElement"
+          type="text"
+          placeholder="Ajouter des éléments"
+        />
+        <button id="btn">Ajouter</button>
+      </div>
+      <ul id="courseList">
+        <!-- Les éléments de la liste seront ajoutés ici -->
+      </ul>
     </main>
     <script src="js/courses.js"></script>
   </body>

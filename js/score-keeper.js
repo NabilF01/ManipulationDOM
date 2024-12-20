@@ -13,8 +13,8 @@ input.addEventListener('change', () => {
     countPlaying.textContent = input.value;
     countP1.textContent = "0";
     countP2.textContent = "0";
-    countP1.style.color = 'black';
-    countP2.style.color = 'black';
+    countP1.style.color = 'white';
+    countP2.style.color = 'white';
     gameOver = false;
 });
 
@@ -51,11 +51,9 @@ btnP2.addEventListener('click', () => {
 });
 
 reset.addEventListener('click', () => {
-    input.value = "0";
-    countPlaying.textContent = "0";
     countP1.textContent = "0";
     countP2.textContent = "0";
-    countP1.style.color = 'black';
-    countP2.style.color = 'black';
+    countP1.style.color = 'white';
+    countP2.style.color = 'white';
     gameOver = false;
 });
